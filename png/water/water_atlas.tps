@@ -32,7 +32,7 @@
         <key>dpi</key>
         <uint>72</uint>
         <key>dataFormat</key>
-        <string>spritesheet-only</string>
+        <string>json-array</string>
         <key>textureFileName</key>
         <filename></filename>
         <key>flipPVR</key>
@@ -128,7 +128,13 @@
             </struct>
         </struct>
         <key>dataFileNames</key>
-        <map type="GFileNameMap"/>
+        <map type="GFileNameMap">
+            <key>data</key>
+            <struct type="DataFile">
+                <key>name</key>
+                <filename>water_sprite_sheet.json</filename>
+            </struct>
+        </map>
         <key>multiPack</key>
         <false/>
         <key>forceIdenticalLayout</key>
@@ -175,11 +181,15 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">forest.png</key>
-            <key type="filename">grass2.png</key>
-            <key type="filename">mountain.png</key>
-            <key type="filename">tree.png</key>
-            <key type="filename">water.png</key>
+            <key type="filename">water_1.png</key>
+            <key type="filename">water_2.png</key>
+            <key type="filename">water_3.png</key>
+            <key type="filename">water_4.png</key>
+            <key type="filename">water_5.png</key>
+            <key type="filename">water_6.png</key>
+            <key type="filename">water_7.png</key>
+            <key type="filename">water_8.png</key>
+            <key type="filename">water_9.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -197,7 +207,15 @@
         </map>
         <key>fileList</key>
         <array>
-            <filename>.</filename>
+            <filename>water_1.png</filename>
+            <filename>water_2.png</filename>
+            <filename>water_3.png</filename>
+            <filename>water_4.png</filename>
+            <filename>water_5.png</filename>
+            <filename>water_6.png</filename>
+            <filename>water_7.png</filename>
+            <filename>water_8.png</filename>
+            <filename>water_9.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
